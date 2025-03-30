@@ -79,6 +79,8 @@ fig.update_yaxes(tickformat='d', type='category')
 st.plotly_chart(fig)
 
 df_discrepancias = df_merged[df_merged["coinciden"] == False]
+df_discrepancias = df_discrepancias.rename(columns={"Cantidad_mencionada": "Cantidad Personas Hogar",
+                                    "Cantidad": "Cantidad Personas Cargadas"})
 if not df_discrepancias.empty:
     st.warning("⚠️ Existen encuestas mal cargadas.")
     st.dataframe(df_discrepancias)

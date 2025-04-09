@@ -17,7 +17,7 @@ df_persons = pd.read_csv('results-survey-person.csv')
 st.write("Vista previa de los datos:")
 st.dataframe(df_surveys)
 st.dataframe(df_persons)
-
+ 
 
 
 

@@ -12,7 +12,7 @@ from Home import df_persons
 # Teniendo en cuenta que tiene el nombre del encuestador
 total = 1000
 completadas = df_surveys['submitdate'].notnull().sum() 
-
+ 
 data = [total, completadas] # Sample data
 labels = ['Total', 'Completadas'] # Labels for each slice
 

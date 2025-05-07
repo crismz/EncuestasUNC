@@ -15,36 +15,65 @@ df_surveys = pd.read_csv('results-survey.csv')
 df_persons = pd.read_csv('results-survey-person.csv')
 
 st.write("Vista previa de los datos:")
-st.dataframe(df_surveys)
-st.dataframe(df_persons)
+
+st.subheader("Encuestas generales")
+
+# Filtrar según la selección del DNI y/o id de encuesta
+# DNI de encuestador: P0S1
+# Id de la encuesta:  P0S6
+
+## Selector de encuestador
+encuestadores_surveys = df_surveys["P0S1"].astype(str).unique().tolist()
+encuestadores_surveys.sort()
+opciones_encuestadores_surveys = ["Todos"] + encuestadores_surveys
+sel_encuestadores_surveys = st.selectbox("Seleccioná un Encuestador (DNI):", opciones_encuestadores_surveys)
+if sel_encuestadores_surveys != "Todos":
+    df_filtrado_surveys = df_surveys[df_surveys["P0S1"].astype(str) == sel_encuestadores_surveys]
+else:
+    df_filtrado_surveys = df_surveys
+
+## Selector de encuesta
+encuestas_disponibles_surveys = df_filtrado_surveys["P0S6"].astype(str).unique().tolist()
+encuestas_disponibles_surveys.sort()
+opciones_encuestas_surveys = ["Todos"] + encuestas_disponibles_surveys
+sel_encuestas_surveys = st.selectbox("Seleccioná una Encuesta (ID):", opciones_encuestas_surveys)
+
+## Filtro de datos según la encuesta y encuestador seleccionados
+if sel_encuestadores_surveys != "Todos":
+    df_filtrado_surveys = df_filtrado_surveys[df_filtrado_surveys["P0S1"].astype(str) == sel_encuestadores_surveys]
+if sel_encuestas_surveys != "Todos":
+    df_filtrado_surveys = df_filtrado_surveys[df_filtrado_surveys["P0S6"].astype(str) == sel_encuestas_surveys]
+
+## Mostramos dataframe filtrado
+st.dataframe(df_filtrado_surveys)
+
+
+st.subheader("Encuestas de personas")
+
+# Lo mismo pero para la df_persons
+
+## Selector de encuestador
+encuestadores_persons = df_persons["P0S1"].astype(str).unique().tolist()
+encuestadores_persons.sort()
+opciones_encuestadores_persons = ["Todos"] + encuestadores_persons
+sel_encuestadores_persons = st.selectbox("Seleccioná un Encuestador (DNI):", opciones_encuestadores_persons)
+if sel_encuestadores_persons != "Todos":
+    df_filtrado_persons = df_persons[df_persons["P0S1"].astype(str) == sel_encuestadores_persons]
+else:
+    df_filtrado_persons = df_persons
+
+## Selector de encuesta
+encuestas_disponibles_persons = df_filtrado_persons["P0S2"].astype(str).unique().tolist()
+encuestas_disponibles_persons.sort()
+opciones_encuestas_persons = ["Todos"] + encuestas_disponibles_persons
+sel_encuestas_persons = st.selectbox("Seleccioná una Encuesta (ID):", opciones_encuestas_persons)
+
+## Filtro de datos según la encuesta y encuestador seleccionados
+if sel_encuestadores_persons != "Todos":
+    df_filtrado_persons = df_filtrado_persons[df_filtrado_persons["P0S1"].astype(str) == sel_encuestadores_persons]
+if sel_encuestas_persons != "Todos":
+    df_filtrado_persons = df_filtrado_persons[df_filtrado_persons["P0S2"].astype(str) == sel_encuestas_persons]
+
+## Mostramos dataframe filtrado
+st.dataframe(df_filtrado_persons)
  
-
-
-
-
-# if uploaded_file is not None:
-
-#     # Selección de variables (preguntas) a analizar
-#     columnas = st.multiselect("Selecciona las preguntas a analizar", df.columns)
-    
-#     if columnas:
-#         # Selección del tipo de gráfico a aplicar para todas las preguntas seleccionadas
-#         grafico = st.radio("Selecciona el tipo de gráfico", ("Barra", "Histograma", "Torta"))
-        
-#         # Generar un gráfico para cada variable seleccionada
-#         for col in columnas:
-#             st.subheader(f"Análisis de: {col}")
-#             fig, ax = plt.subplots()
-            
-#             if grafico == "Barra":
-#                 sns.countplot(y=df[col], ax=ax)
-#                 ax.set_title(f"Gráfico de Barras para {col}")
-#             elif grafico == "Histograma":
-#                 sns.histplot(df[col], kde=True, ax=ax)
-#                 ax.set_title(f"Histograma para {col}")
-#             elif grafico == "Torta":
-#                 df[col].value_counts().plot.pie(autopct='%1.1f%%', ax=ax)
-#                 ax.set_ylabel('')
-#                 ax.set_title(f"Gráfico de Torta para {col}")
-            
-#             st.pyplot(fig)

@@ -339,7 +339,6 @@ TARJETA ALIMENTAR "
 "431","1980-01-01 00:00:00","2","es","187708501","32705488","09802000301","No","Juan Ignacio","Varón","14","5: Nieto/a","3. Secundario incompleto","No","1. Argentina","","No",
 "432","1980-01-01 00:00:00","2","es","1888130777","32705488","09802000302","Sí","Jose","Varón","45",,"6. Universitario o terciario completo","Sí","1. Argentina","","No",
 "433","1980-01-01 00:00:00","2","es","640650959","32705488","09802000303","Sí","Micaela","Mujer","31",,"6. Universitario o terciario completo","Sí","1. Argentina","","No",
-"434","1980-01-01 00:00:00","2","es","2144087821","32705488","09802000304","Sí","Martin","Varón","50",,"5. Universitario o terciario incompleto","Sí","1. Argentina","","No",
 "435","1980-01-01 00:00:00","2","es","102102133","32705488","09802000304","No","Felipe","Varón","9","2: Hijo/a","1. Primario incompleto","No","1. Argentina","","No",
 "436","1980-01-01 00:00:00","2","es","1833261705","32705488","09802000305","Sí","Ezequiel","Varón","44",,"4. Secundario completo","Sí","1. Argentina","","Sí","Salario Familiar"
 "437","1980-01-01 00:00:00","2","es","1099599456","32705488","09802000305","No","Sofia","Mujer","38","1: Jefe/a Cónyuge/Pareja","6. Universitario o terciario completo","Sí","1. Argentina","","No",
@@ -703,7 +702,6 @@ Pensión No Contributiva"
 "829","1980-01-01 00:00:00","2","es","1843948721","36125530","01402500205","Sí","Luis","Varón","44",,"6. Universitario o terciario completo","Sí","1. Argentina","","No",
 "830","1980-01-01 00:00:00","2","es","1008334022","36125530","01402500205","No","Marisa","Mujer","52","1: Jefe/a Cónyuge/Pareja","4. Secundario completo","Sí","1. Argentina","","No",
 "831","1980-01-01 00:00:00","2","es","1656080629","36125530","01402500205","No","Lucas","Varón","14","2: Hijo/a","3. Secundario incompleto","No","1. Argentina","","No",
-"832","1980-01-01 00:00:00","2","es","304662339","18868676","13300201201","Sí","Amalia","Mujer","71",,"4. Secundario completo","Sí","1. Argentina","","Sí","Pension por Invalidez"
 "833","1980-01-01 00:00:00","2","es","590483316","18868676","13300201204","Sí","Elsa","Mujer","61",,"2. Primario completo","Sí","1. Argentina","","No",
 "834","1980-01-01 00:00:00","2","es","161223815","31401023","04900301008","Sí","Milbia","Mujer","40",,"6. Universitario o terciario completo","Sí","1. Argentina","","No",
 "835","1980-01-01 00:00:00","2","es","1238690247","31401023","04900301008","No","Luisana","Mujer","17","2: Hijo/a","3. Secundario incompleto","No","1. Argentina","","Sí","progresar"
@@ -842,7 +840,7 @@ Pensión No Contributiva"
 "984","1980-01-01 00:00:00","2","es","447063119","39422207","09802500405","Sí","Sofia","Mujer","35",,"6. Universitario o terciario completo","Sí","1. Argentina","","No",
 "985","1980-01-01 00:00:00","2","es","278260873","39422207","09802500405","No","Leonardo","Varón","31","1: Jefe/a Cónyuge/Pareja","4. Secundario completo","Sí","1. Argentina","","No",
 "986","1980-01-01 00:00:00","2","es","183837164","39422207","09802500405","No","Valentin","Varón","1","2: Hijo/a","1. Primario incompleto","No","1. Argentina","","No",
-"987","1980-01-01 00:00:00","2","es","2078173444","3942207","09802501105","Sí","Alba|","Mujer","91",,"2. Primario completo","Sí","1. Argentina","","No",
+"987","1980-01-01 00:00:00","2","es","","39422207","09802501105","Sí","Alba|","Mujer","91",,"2. Primario completo","Sí","1. Argentina","","No",
 "988","1980-01-01 00:00:00","2","es","130669133","39422207","09802501105","Sí","Eric","Varón","30",,"4. Secundario completo","Sí","1. Argentina","","No",
 "989","1980-01-01 00:00:00","2","es","85953305","43829653","01409101203","No","soledad","Mujer","50","1: Jefe/a Cónyuge/Pareja","5. Universitario o terciario incompleto","Sí","1. Argentina","","No",
 "990","1980-01-01 00:00:00","2","es","83910810","43829653","01409101203","Sí","carlos","Varón","51",,"4. Secundario completo","Sí","1. Argentina","","No",
@@ -931,7 +929,6 @@ Pensión No Contributiva"
 "1083","1980-01-01 00:00:00","2","es","35529434","38762596","01407200401","Sí","Lourdes","Mujer","25",,"5. Universitario o terciario incompleto","Sí","1. Argentina","","No",
 "1084","1980-01-01 00:00:00","2","es","682097645","38762596","01407200401","No","Valentina","Mujer","18","9: Otros familiares","5. Universitario o terciario incompleto","No","1. Argentina","","No",
 "1085","1980-01-01 00:00:00","2","es","432049683","38762596","01407200401","No","Lorenzo","Varón","2","2: Hijo/a","1. Primario incompleto","No","1. Argentina","","No",
-"1086","1980-01-01 00:00:00","2","es","625634290","39824731","04200701004","Sí","Selene","Mujer","25",,"5. Universitario o terciario incompleto","Sí","1. Argentina","","No",
 "1087","1980-01-01 00:00:00","2","es","457662684","39824731","04200701004","Sí","David","Varón","27",,"5. Universitario o terciario incompleto","Sí","1. Argentina","","No",
 "1088","1980-01-01 00:00:00","2","es","1005476672","39821765","14001100606","Sí","Eze","Varón","34",,"6. Universitario o terciario completo","Sí","1. Argentina","","No",
 "1089","1980-01-01 00:00:00","2","es","158412468","43813865","14700800801","Sí","Roberto","Varón","34",,"5. Universitario o terciario incompleto","Sí","1. Argentina","","No",
@@ -1466,3 +1463,6 @@ Pensión No Contributiva"
 "1674","1980-01-01 00:00:00","2","es","1173458966","18868676","13300201204","No","Valentino ","Varón","4","5: Nieto/a","1. Primario incompleto","No","1. Argentina","","No",
 "1675","1980-01-01 00:00:00","2","es","219231247","18868676","13300201201","No","Amalia","Mujer","71","1: Jefe/a Cónyuge/Pareja","4. Secundario completo","Sí","1. Argentina","","No",
 "1676","1980-01-01 00:00:00","2","es","211035061","18868676","13300201202","No","Bruno","Varón","30","1: Jefe/a Cónyuge/Pareja","6. Universitario o terciario completo","Sí","1. Argentina","","No",
+"1678","1980-01-01 00:00:00","2","es","316734439","35894258","01401601803","No","x","Varón","28","1: Jefe/a Cónyuge/Pareja","3. Secundario incompleto","Sí","1. Argentina","","No",
+"1679","1980-01-01 00:00:00","2","es","496946072","35894258","01406800901","Sí","Héctor","Varón","83",,"3. Secundario incompleto","Sí","1. Argentina","","No",
+"1680","1980-01-01 00:00:00","2","es","912279614","36921636","4200801602","No","Alberto","Varón","58","1: Jefe/a Cónyuge/Pareja","4. Secundario completo","Sí","Otro","Bolivia ","Sí","Jubilación por discapacidad "
